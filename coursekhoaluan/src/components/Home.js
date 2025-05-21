@@ -3,6 +3,7 @@ import { Alert, Button, Card, Col, Row, Table, Form } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import { MyUserContext } from "../config/Contexts";
 import MySpinner from "./layout/MySpinner";
+import { Image } from "react-bootstrap";
 import { authApis, endpoints } from "../config/Apis";
 
 const Home = () => {

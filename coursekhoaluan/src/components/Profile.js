@@ -57,7 +57,7 @@ const Profile = () => {
       );
 
       setSuccessMsg(res.data);
-      setOldPassword("");
+      setOldPassword("");ImIm
       setNewPassword("");
       setConfirmPassword("");
       setShowModal(false);
